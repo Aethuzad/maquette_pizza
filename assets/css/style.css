@@ -21,6 +21,7 @@
       opacity: 1;
     }
 }
+  
 header nav {
     position: fixed;
     top: 0;
@@ -29,6 +30,7 @@ header nav {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+
 }
 
   
@@ -42,6 +44,8 @@ header ul {
     background-color: rgba(0, 0, 0, 0.567);
     top: 7vh;
     position: absolute;
+    width: 30%;
+    text-align: center;
     
 }
 
