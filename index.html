@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Maquette pizza</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label id="burger" for="check">
+                <i class="fa-solid fa-bars ma-bars">
+                </i></label>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div id="tete">
+            <h1>THIN <br> CRUST PIZZA</h1>
+            <div id="let">LET ME SEE THE MENU</div>
+            <div id="open">Open to 10AM to 12PM</div>
+
+        </div>
+        <section id="menu">
+            <h2>THE MENU</h2>
+            <nav>
+                <ul>
+                    <li id="pizza">Pizza</li>
+                    <li>Salads</li>
+                    <li>Starter</li>
+                </ul>
+            </nav>
+            <div id="bouffe">
+            <h3>Margherita <span>$12.50</span></h3>
+            <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            <h3>Formaggio<span>$15.5</span></h3>
+            <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            <h3>Chicken <span>$17.00</span></h3>
+            <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+            <h3>Pineapple'o'clock <span>$16.50</span></h3>
+            <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+            <h3>Meat Town Hot! <span>$20.00</span></h3>
+            <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+            <h3>Parma New <span>$21.50</span></h3>
+            <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div class="chauve">
+            <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p><strong>The Chef?</strong> Mr. Italiano himself</p>
+            
+            <div id="chef"><img src="./assets/img/chef.jpg" alt=""></div>
+            <p>We are proud of our interiors.</p>
+            </div>
+            <div id="resto"><img src="./assets/img/onepage_restaurant.jpg" alt=""></div>
+            <div class="chauve">
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Mon & Tue CLOSED</li>
+                <li>Wednesday 10.00 - 24.00</li>
+                <li>Thursday 10:00 - 24:00</li>
+            </ul>
+            <ul>
+                <li class="friday">Friday 10:00 - 12:00</li>
+                <li class="friday">Saturday 10:00 - 23:00</li>
+                <li class="friday">Sunday Closed</li>
+            </ul>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1542.5075405639757!2d1.101815659257275!3d49.44335034804059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1694783637455!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="contact">
+            <div id="marge">
+            <h2>Contact</h2>
+            <p>Find us at some address at some place or call us at 05050515-122330</p>
+            <p><span id="fyi">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+            </p>
+            <h3><strong>Reserve</strong> a table, ask for today's special or just send us a message:</h3>
+            <form action="">
+                <div>
+                    <input name="lastname" placeholder="Name" type="text">
+                </div>
+                <div>
+                    <input name="people" placeholder="How many people" type="number">
+                </div>
+                <div>
+                    <input name="datetime" value="2020-11-16 20:00" type="datetime-local">
+                </div>
+                <div>
+                    <input name="message" placeholder="Message / Special Requirements" type="text">
+                </div>
+                <div>
+                    <input name="submitted" value="SEND MESSAGE" type="button" class="send">
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Powered by</p>
+    </footer>
+</body>
+
+</html>
