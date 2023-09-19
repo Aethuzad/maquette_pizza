@@ -68,7 +68,10 @@ main #tete {
     position: relative;
     filter: grayscale(60%);
 }
-
+nav a{
+    text-decoration: none;
+    color: white;
+}
 #tete h1 {
     display: flex;
     align-items: center;
@@ -217,8 +220,7 @@ main #about {
     width: 150px;
     clip-path: ellipse(50% 50% at 50% 50%);
     position: absolute;
-    bottom: -10%;
-    right: -10%;
+    margin-left: 80%;
     transform: translate(-50%, -50%);
 }
 
